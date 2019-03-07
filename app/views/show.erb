@@ -1,6 +1,6 @@
 <h2>Name: <%= @recipe.name %> </h2>
 <h2>Ingredients: <%= @recipe.ingredients %> </h2>
-<h2>Cook Time: <%= @recipe.cook_time %> </h2>
+Cook Time: <%= @recipe.cook_time %> 
 
 <form method="POST" action="/recipes/<%=@recipe.id%>">
   <input type="hidden" name="_method" value="DELETE" />
